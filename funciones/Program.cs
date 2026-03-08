@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//1. Mostrar un saludo en pantalla utilizando una función Saludar() que imprima “Hola, bienvenido”.
+void saludar()
+{
+    Console.WriteLine("Hola, bienvenido");
+}
 
+saludar();
