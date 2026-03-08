@@ -75,3 +75,24 @@ MostrarCuadrado(4);
 
 //9. Sumar dos números utilizando una función SumarMostrar(int a, int b) y mostrar el resultado.
 
+void SumarMostrar(int a, int b)
+{
+    int suma = a + b;
+    Console.WriteLine($"la suma de {a} + {b} es: "+suma );
+}
+
+SumarMostrar(12, 23);
+
+//Imprimir un texto varias veces utilizando una función ImprimirRepetido(string texto, int veces).
+
+void ImprimirRepetido(string texto,int veces)
+{
+    
+}
+
+
+
+
+
+
+
