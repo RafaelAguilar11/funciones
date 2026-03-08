@@ -46,11 +46,9 @@ MostrarMenu();
 
 //6. Saludar a una persona utilizando una función Saludar(string nombre) que imprima “Hola + nombre”.
 
-void Saludar1()
+void Saludar1(string nombre)
 {
-    Console.WriteLine("Elegir opcion ");
-    Console.WriteLine("Ingresar contraseña ");
-    Console.WriteLine("salir ");
+    Console.WriteLine("Hola " + nombre);
 }
 
-Saludar1();
+Saludar1("Carlos");
