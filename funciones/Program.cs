@@ -72,3 +72,6 @@ void MostrarCuadrado(int n)
 }
 
 MostrarCuadrado(4);
+
+//9. Sumar dos números utilizando una función SumarMostrar(int a, int b) y mostrar el resultado.
+
