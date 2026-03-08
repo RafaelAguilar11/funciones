@@ -64,3 +64,11 @@ void MostrarDoble(int n)
 MostrarDoble(5);
 
 //8. Mostrar el cuadrado de un número utilizando una función MostrarCuadrado(int n).
+
+void MostrarCuadrado(int n)
+{
+    int num1 = n * n;
+    Console.WriteLine($"el cuadrado de {n} es:" + num1);
+}
+
+MostrarCuadrado(4);
