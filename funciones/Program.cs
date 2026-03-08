@@ -32,3 +32,14 @@ void linea()
 }
 
 linea();
+
+//5. Mostrar un menú simple utilizando una función MostrarMenu() con tres opciones.
+
+void MostrarMenu()
+{
+    Console.WriteLine("Elegir opcion ");
+    Console.WriteLine("Ingresar contraseña ");
+    Console.WriteLine("salir ");
+}
+
+MostrarMenu();
