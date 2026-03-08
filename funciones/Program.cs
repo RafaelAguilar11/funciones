@@ -52,3 +52,15 @@ void Saludar1(string nombre)
 }
 
 Saludar1("Carlos");
+
+//7. Mostrar el doble de un número utilizando una función MostrarDoble(int n).
+
+void MostrarDoble(int n)
+{
+    int res = n * 2;
+    Console.WriteLine("el doble es " + res);
+}
+
+MostrarDoble(5);
+
+//8. Mostrar el cuadrado de un número utilizando una función MostrarCuadrado(int n).
