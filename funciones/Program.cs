@@ -16,6 +16,12 @@ void MostrarNombre()
 
 MostrarNombre();
 
-//Mostrar un mensaje en pantalla utilizando una función MostrarMensaje() que imprima “Programación en C#”.
 
+//Mostrar un mensaje en pantalla utilizando una función MostrarMensaje() que imprima “Programación en C#”.
+void MostrarMensaje();
+{
+    Console.WriteLine("Programación en C#");
+}
+
+MostrarMensaje();
 
