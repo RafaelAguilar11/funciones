@@ -9,4 +9,10 @@ saludar();
 
 
 //Mostrar un nombre en pantalla utilizando una función MostrarNombre().
+void MostrarNombre()
+{
+    Console.WriteLine("Rafael");
+}
+
+MostrarNombre();
 
