@@ -124,3 +124,19 @@ int multi(int a, int b)
 
 int res = multi(12, 3);
 Console.WriteLine(res);
+
+//14. Dividir dos números utilizando una función Dividir(double a, double b) que retorne el resultado.
+double dividir(double a, double b)
+{
+    return a / b;
+}
+
+double res1 = dividir(12, 3);
+Console.WriteLine(res1);
+
+//15. Determinar si un número es par utilizando una función EsPar(int n) que retorne verdadero o falso.
+
+bool EsPar(int n)
+{
+    return n % 2;
+}
