@@ -83,11 +83,11 @@ void SumarMostrar(int a, int b)
 
 SumarMostrar(12, 23);
 
-//Imprimir un texto varias veces utilizando una función ImprimirRepetido(string texto, int veces).
+//10. Imprimir un texto varias veces utilizando una función ImprimirRepetido(string texto, int veces).
 
 void ImprimirRepetido(string texto,int veces)
-{
-    
+{ 
+    Console.WriteLine($"la suma de {a} + {b} es: " + suma);
 }
 
 
