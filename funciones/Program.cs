@@ -86,10 +86,16 @@ SumarMostrar(12, 23);
 //10. Imprimir un texto varias veces utilizando una función ImprimirRepetido(string texto, int veces).
 
 void ImprimirRepetido(string texto,int veces)
-{ 
-    Console.WriteLine($"la suma de {a} + {b} es: " + suma);
+{
+
+    for (int num1 = 1; num1 <= veces; num1++)
+        Console.WriteLine($"{texto}");
 }
 
+ImprimirRepetido("Hola Mundo",5);
+
+
+//11. Sumar dos números utilizando una función Sumar(int a, int b) que retorne el resultado.
 
 
 
