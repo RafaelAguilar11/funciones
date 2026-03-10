@@ -97,8 +97,30 @@ ImprimirRepetido("Hola Mundo",5);
 
 //11. Sumar dos números utilizando una función Sumar(int a, int b) que retorne el resultado.
 
+int sumar(int a,int b)
+{
+    return a + b;
+}
+
+int g = sumar(10, 3);
+Console.WriteLine(g);
+
+//12. Restar dos números utilizando una función Restar(int a, int b) que retorne el resultado.
+ int restar(int a1,int b1)
+{
+    return a1 - b1;
+}
+
+int g1 = restar(10, 3);
+Console.WriteLine(g1);
 
 
+//13. Multiplicar dos números utilizando una función Multiplicar(int a, int b) que retorne el resultado.
 
+int multi(int a, int b)
+{
+    return a * b;
+}
 
-
+int res = multi(12, 3);
+Console.WriteLine(res);
