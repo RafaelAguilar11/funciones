@@ -138,5 +138,8 @@ Console.WriteLine(res1);
 
 bool EsPar(int n)
 {
-    return n % 2;
+    return n % 2 ==0;
 }
+int res2 = EsPar(30);
+Console.WriteLine(res);
+
